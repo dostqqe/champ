@@ -1,5 +1,5 @@
 patients, disorder, patient_disorder, patient_state(показатели здоровья с указанием заболевания)
-patient_contact_rules, health_indicator, metric_type,
+patient_contact_rules, health_indicator(is_valid bool, можно попробовать сделать связь с voice_input), metric_type,
 user, monitoring_plan, monitoring_result
 также можно
 storage_setting, cda_documents, voice_input("text_response", "recognized_metrics")
