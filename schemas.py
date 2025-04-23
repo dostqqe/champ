@@ -14,6 +14,9 @@ class PatientBase(BaseModel):
     }
 
 
+#DONT FORGET __init__
+
+
 class PatientCreate(PatientBase):
     pass
 
