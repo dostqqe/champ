@@ -4,6 +4,8 @@ disorders = relationship("PatientDisorder", back_populates="patient")
 таблица PatientDisorder
 patient = relationship("Patient", back_populates="disorders")
 в качестве аргумента передается название таблицы из модели, а back_populates являет собой _название_ этой связи в другой таблице
+связь в модели - metric_type_id = Column(Integer, ForeignKey('metric_type.id'))
+
 
 иммиграция alembic
 установка алембика(я тебя очень люблю)
